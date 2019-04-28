@@ -4,15 +4,11 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
- 
 }
+
 
 * {
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .masthead {
@@ -32,9 +28,8 @@ html {
   clear: both;
   background-color: white;
   margin-top: 40px;
-  padding: 0 30px 30px 30px;
-
-  /* <- does the trick */
+  padding: 0 30px 20px 30px;
+  
 }
 
 h1,
@@ -42,9 +37,7 @@ h2,
 h3,
 p {
   margin-bottom: 30px; 
-
 }
-
 
 p:last-child {
   margin-bottom: 0;
@@ -63,6 +56,7 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
+  width:100%;
 }
 
 h2,
@@ -71,7 +65,6 @@ h3 {
 }
 
 /* header */
-
 
 #logo {
   float: left;
@@ -90,13 +83,14 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  height: 28px;
 }
 
 .nav a.nav-link {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
-  line-height: 18px;
+  line-height: 15px;
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
@@ -109,7 +103,7 @@ nav {
 /* footer */
 
 footer {
-  padding: 30px 0;
+  padding: 30px 0; 
   clear: both;
   font-size: 12px; 
   color: #ffffff;
@@ -119,13 +113,12 @@ footer {
   height: 50px;
 }
 
-
-
 /* main */
 
 #main-container {
-  padding-top: 130px;
-  min-height: calc(100vh - 70px);
+  /* min-height: calc(100vh - 70px); */
+  padding-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .main-section {
@@ -143,7 +136,7 @@ footer {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px 20px 20px 20px;
   overflow: auto;
 }
 
@@ -155,6 +148,7 @@ footer {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  margin-right: 25px;
 }
 
 .work h3 {
@@ -191,12 +185,13 @@ textarea {
 }
 
 form {
-  padding-top:-20px;
+  padding-top:-20px; 
   margin-left: 30px;
-  margin-bottom: -30px;
+  margin-bottom: -0px;
   width: 850px;
 
 }
+
 #exampleFormControlTextarea1{
   height: 100px;
 }
@@ -208,5 +203,6 @@ form {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-left: -15px;
 }
