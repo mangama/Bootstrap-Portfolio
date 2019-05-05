@@ -11,19 +11,20 @@ body {
   box-sizing: border-box;
 }
 
-.masthead {
+.container-hearder {
   background-color: white;
-  padding-left:80px;
+  padding-left:40px;
   padding-right:80px;
   color: #ffffff;
-  background: #ffffff;
+  background: #ffffff; 
   border-bottom: 2px solid #cccccc;
-}
+} 
+
 /* general */
 
 .container {
-  width: 100%;
-  max-width: 960px; 
+  width: 100%; 
+  max-width: 960px;  
   margin: 0 auto;
   clear: both;
   background-color: white;
@@ -207,120 +208,16 @@ form {
   margin-left: -15px;
 }
 
+/* 
+div.col-sm.col-sm {
+  float: left;
+} 
 
-/* 640 px layout */
-@media only screen and (max-width:640px) {
-.masterhead {
-    width:100%;
-    margin-right: 50px;
-  }
-#logo   {
-  width:500px;
-}
-.nav {
-  padding-right:70px;
-}
-.auth-image {
-  width: 535px;
-  height: 400px;
-  margin-top:20px
-  }
-  .work {
-    width: 90%;   
-  }
-  .container { 
-    margin: 30px 10px 200px 20px;
-    width: 600px;
-  }
-}
+div.col-sm.col-sm-6 {
+  float: right;
+} 
+nav.sticky-top  {
+  margin-right: 40px;
 
-768px layout
-@media only screen and (min-width:641px) and (max-width:768px) {
-  
-  .masterhead {
-    width:100%;
-    margin-right: 50px;
-  }
-  nav   {
-    float: left;
-  }
-
-  .masterhead .row{
-    padding-right:100px;
-    margin-left: 100px;
-  } 
-  /* div.col-sm a#logo {
-   
-    margin-right: 50px;
-  } */
-
-  /* nav.sticky-top {
-    margin-right: 100px;
-  } */
-  /* nav {
-    margin-left:0;
-  } */
-  
-  /* .a.nav.about{
-
-    margin-right: -100px;
-  } */
-  
-  /* ul.nav-justify-content-end {
-    padding-right: 200px;
-  } */
-
-  /* .img {
-    width: 50%;   
-  } */
-
-   /* a#logo {
-    margin-right: 50px;
-  } */
-  /* header div.row  {
-    margin-right: 100px;
-  } */
-}
- .auth-image {
-  width: 200px;
-  height: 200px;
-  }
-  
-  .row .col-ms-4  {
-    width: 42%;
-    margin-left: 20px;
-  }
-  .row .col-md-9 {
-    padding-left: 70px;
-  }
-
-  .container {
-    margin: 20px 50px 400px 20px;
-    width: 730px; 
-  }
- 
-}
-
-/* 980px layout */
-/* @media only screen and (min-width:769px) and (max-width:980px) { 
-  #logo {
-    margin-left: 25px;
-  }
- .auth-image {
-  width: 40%;
-  height: 125px;
-  }
-  .main-section {
-    padding-bottom: -50px;
-    margin: 20px 50px 400px 30px;
-    width: 550px;  
-  }
-  .work{
-    width: 45%;
-    float: left;
-    padding-bottom: -50px;
-    margin-left: 5x;
-  }  
-} */
-
-
+  padding-left:40px; 
+}  */
