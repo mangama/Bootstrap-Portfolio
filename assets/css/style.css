@@ -167,10 +167,10 @@ footer {
 
 .auth-image {
   float: left;
-  width: 225px;
-  height: 225px;
+  width: 100%x;
+  height: 200px;
   margin-top: 10px;
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 
 /* contact page */
