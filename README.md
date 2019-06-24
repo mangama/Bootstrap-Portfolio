@@ -2,6 +2,7 @@
 
 Responsiveness Assignment
  GitHub repository link: https://github.com/mangama/Bootstrap-Portfolio
+ 
  Deployment: https://mangama.github.io/Bootstrap-Portfolio/ 
 
 
@@ -19,7 +20,7 @@ Steps:
     - A responsive layout (remember the grid, rows and columns are your friends).eg. On an xs screen, content should take up the entire screen. On sm and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
 
 The Bootstrap project should minimize use of media queries.
-Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+
 
 
 
